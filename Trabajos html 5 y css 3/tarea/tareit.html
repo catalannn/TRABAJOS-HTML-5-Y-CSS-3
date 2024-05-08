@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Five Animations</title>
+<style>
+    /* Animación 1: Girar */
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    
+    /* Animación 2: Desvanecer */
+    @keyframes fade {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+    
+    /* Animación 3: Cambiar color */
+    @keyframes colorChange {
+        0% { color: red; }
+        50% { color: blue; }
+        100% { color: green; }
+    }
+    
+    /* Animación 4: Escalar */
+    @keyframes scale {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.5); }
+        100% { transform: scale(1); }
+    }
+    
+    /* Animación 5: Mover */
+    @keyframes move {
+        0% { transform: translateX(0); }
+        50% { transform: translateX(100px); }
+        100% { transform: translateX(0); }
+    }
+    
+    /* Estilos generales */
+    .animated {
+        display: inline-block;
+        font-size: 24px;
+        margin: 20px;
+        padding: 10px;
+        border: 2px solid black;
+        cursor: pointer;
+    }
+    
+    /* Aplicar animaciones */
+    .spin { animation: spin 2s linear infinite; }
+    .fade { animation: fade 2s ease-out infinite alternate; }
+    .colorChange { animation: colorChange 3s infinite; }
+    .scale { animation: scale 2s ease-in-out infinite alternate; }
+    .move { animation: move 2s ease-in-out infinite alternate; }
+</style>
+</head>
+<body>
+    <div class="animated spin">Girar</div>
+    <div class="animated fade">Desvanecer</div>
+    <div class="animated colorChange">Cambiar Color</div>
+    <div class="animated scale">Escalar</div>
+    <div class="animated move">Mover</div>
+</body>
+</html>
+
+<img src="Coral_Buddies_-_Lore_-_Fortnite.webp" alt="corales1" width="400" height="300">
+<img src="background.png" alt="coralesglider" width="400" height="300">
+<img src="Fortnite-Signal-The-Coral-Buddies.jpg" alt="corales1" width="400" height="300">
+<img src="gelatino.png" alt="corales1" width="400" height="300">
+<img src="artworks-000519807972-gg6k9v-t500x500.jpg" alt="corales1" width="400" height="300">
